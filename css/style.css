@@ -1,25 +1,29 @@
 #carouselExampleControls img{
     max-height: 1000px;
+    border-radius: 3%;
 }
 
   @media screen and (max-width: 4000px) {
     body{
-        background-color: rgba(208, 105, 153, 0.382);
+        background-color: rgba(182, 89, 132, 0.382);
         
     }
     #carouselExampleControls img{
         height: 150px;
         max-width: 150px;
         border-radius: 120%;
-        border: 7px solid rgba(149, 10, 130, 0.259);
+        border: 5px solid rgba(207, 24, 100, 0.259);
     }
     .card-body {
-        background-color: rgba(125, 22, 94, 0.029);
+        background-color: rgba(199, 23, 73, 0.096);
         color: #0903036e;
+        border:5px solid #af1d4e6e;
+        border-radius: 3%;
         
     }
     .card{
         background-color: rgba(171, 64, 64, 0.263);
+        border-radius: 3%;
         
     }
   }
